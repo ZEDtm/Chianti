@@ -1,0 +1,16 @@
+.MainLogo{
+    width: 670px;
+    height: 163px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
+
+    .MainLogoImg{
+        align-self: flex-end;
+    }
+    .ArrowLogoImg{
+        margin-left: 31px;
+        width: 58px;
+        height: 58px;
+    }
+}

@@ -1,0 +1,19 @@
+.container{
+    width: 35px;
+    height: 35px;
+    background-color: inherit;
+    .inner{
+        border-radius: 100%;
+        border: 2px solid grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 89%;
+        height: 89%;
+        
+        .img{
+            width: 15.8px;
+            height: 15.8px;
+        }
+    }
+}

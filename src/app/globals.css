@@ -1,0 +1,30 @@
+:root {
+  --dark-theme-color: #131313;  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+
+
+html{
+}
+
+body{
+  background-color: var(--dark-theme-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

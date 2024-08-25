@@ -1,0 +1,8 @@
+.Cross{
+    width: 8.8125rem;
+    height: 8.8125rem;
+    background-color: inherit;
+    .CrossImg{
+        opacity: 50%;
+    }
+}
