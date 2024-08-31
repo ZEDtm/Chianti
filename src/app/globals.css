@@ -1,5 +1,6 @@
 :root {
-  --dark-theme-color: #131313;  
+  --dark-theme-color: #131313;
+  --dark-theme-text-color: #E1DFE0;
 }
 
 *{
@@ -16,6 +17,7 @@ html{
 
 body{
   background-color: var(--dark-theme-color);
+  color: var(--dark-theme-text-color);
   display: flex;
   flex-direction: column;
   align-items: center;

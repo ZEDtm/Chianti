@@ -13,7 +13,7 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>01</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        Аперитив -<br/>
+                        Аперитив -<br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
                             welcome
                         </span>
@@ -30,7 +30,7 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>02</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        ужин -<br/>
+                        ужин -<br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
                             концерт
                         </span>
@@ -47,7 +47,7 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>03</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        дижестив -<br/>
+                        дижестив -<br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
                             хораоке, After party
                         </span>
@@ -64,7 +64,7 @@ const CardSection = () => {
                 <div className={styles.cardTextContainer}>
                     <div className={`${SFProDisplay.className} ${styles.cardNumber}`}>04</div>
                     <div className={`${Lighthaus.className} ${styles.cardName}`}>
-                        соло<br/>
+                        соло<br className={styles.break}/>
                         <span className={`${Lighthaus.className} ${styles.cardNameSpan}`}>
 
                         </span>

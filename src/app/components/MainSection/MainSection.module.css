@@ -1,70 +1,240 @@
-.mainSection {
-    margin-top: 10px;
-    padding: 0 33px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.leftImageContainer{
-    display: flex;
-    margin-right: 91px;
-}
-
-.leftImage{
-    width: 542px;
-    height: 665px;
-
-}
-
-.contentContainer{
-    padding-right: 85px;
-}
-
-.logoContainer{
-    display: flex;
-    flex-direction: column;
-}
-.chiantiLogoArrow{
-    align-self: flex-end;
-}
-.chiantiLogo{
-}
-
-.textContainer{
-    margin-top: 78px;
-}
-
-.contentText{
-    font-size: 27px;
-    color: #E1DFE0;
-}
-
-.actionButton{
-    margin-top: 68px;
-    width: 188px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #DA2328;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    transition: all .2s linear;
-    cursor: pointer;
-    &:hover{
-        background-color: #a3181c;
-        transform: scale(1.1);
+@media (min-width: 1440px) {
+    .mainSection {
+        margin-top: 10px;
+        padding: 0 33px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
     }
+
+    .leftImageContainer{
+        display: flex;
+        margin-right: 91px;
+    }
+
+    .leftImage{
+        width: 542px;
+        height: 665px;
+
+    }
+
+    .contentContainer{
+        padding-right: 85px;
+    }
+
+    .logoContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .chiantiLogoArrow{
+        align-self: flex-end;
+    }
+    .chiantiLogo{
+    }
+
+    .textContainer{
+        margin-top: 78px;
+    }
+
+    .contentText{
+        font-size: 27px;
+        color: #E1DFE0;
+    }
+
+    .actionButton{
+        margin-top: 68px;
+        width: 188px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        cursor: pointer;
+        &:hover{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .socialIcons{
+        width: 132px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .mainSection {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10vw;
+    }
+
+    .leftImageContainer{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-right: 32px;
+    }
+
+    .leftImage{
+        width: 480px;
+        height: 100%;
+
+    }
+
+    .contentContainer{
+
+    }
+
+    .logoContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .chiantiLogoArrow{
+        align-self: flex-end;
+    }
+    .chiantiLogo{
+        width: 35vw;
+        height: 100%;
+    }
+
+    .textContainer{
+        margin-top: 78px;
+    }
+
+    .contentText{
+        font-size: 20px;
+        color: #E1DFE0;
+    }
+
+    .actionButton{
+        margin-top: 68px;
+        width: 188px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        cursor: pointer;
+        &:hover{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .socialIcons{
+        width: 132px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
 }
 
 
-.socialIcons{
-    width: 132px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
+@media (min-width: 360px) and (max-width: 768px) {
+    .mainSection {
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leftImageContainer{
+        display: flex;
+    }
+
+    .leftImage{
+        width: 100vw;
+        height: 100%;
+        opacity: 45%;
+
+    }
+
+    .contentContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logoContainer {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+        padding: 0 16px;
+    }
+    .chiantiLogoArrow{
+        align-self: flex-end;
+        width: 10vw;
+        height: 8vw;
+    }
+    .chiantiLogo{
+        margin-top: 8px;
+        width: 75vw;
+        height: 100%;
+    }
+
+    .textContainer{
+        margin-top: 16px;
+    }
+
+    .contentText{
+        font-size: 16px;
+        color: #E1DFE0;
+    }
+
+    .actionButton{
+        margin-top: 32px;
+        width: 188px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #DA2328;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        transition: all .2s linear;
+        &:active{
+            background-color: #a3181c;
+            transform: scale(1.1);
+        }
+    }
+
+
+    .socialIcons{
+        width: 132px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+
 }
